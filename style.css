@@ -1,9 +1,9 @@
 body{
 	height:100%;
+	background-image: url("background.jpg");
 	font-family: 'Delius Unicase', cursive;
 	font-size: 15px;
 	text-align: justify;
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 }
 
 #contactpage{
@@ -16,54 +16,44 @@ body{
 
 a.navbar-brand{
 	font-family: 'Delius Unicase', cursive;
-	font-size: 2em;
-	background: #F5F5F5;
-	padding-left:68px;
-	padding-right: 50px;
-	border:2px solid #000;
+	font-size: 2.2em;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 a{
-	color:coral;
+	color:black;
 }
 
 .form-group{
 	padding-top:75px;
 }
 
-.col-sm-5{
-	margin-bottom:50px;
-}
-
-
 .navbar.navbar-default{
 	padding-bottom: 0px;
 	padding-top: 0px;
 	background: #fff;
+	border-radius: 0;
 }
 
 .navbar.navbar-default a:hover{
 	color:white;
     background-color: #E0E0E0;
      border-radius: 0px;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 2s;
     animation-name: example;
     animation-duration: 2s;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     from {background-color: black;}
-    to {background-color: white;}
+    to {background-color: #E0E0E0;}
 }
 
-/* Standard syntax */
 @keyframes example {
     from {background-color: black;}
-    to {background-color: white;}
+    to {background-color: #E0E0E0;}
 }
 
 .images p{
@@ -71,7 +61,7 @@ a{
 }
 
 .images img:hover{
-	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+	-webkit-filter: blur(5px);
     filter: blur(5px);
 }
 
@@ -93,12 +83,11 @@ img.linkedin{
 div.well{
 	width:390px;
 	clear:both;
-	margin-left: 125px;
-	border:2px solid #000;
+	border:2px solid #636C72;
+	opacity: 0.8;
 }
 
 .thumbnail1{
-	widht:20px;
 	position:relative;
 }
 
